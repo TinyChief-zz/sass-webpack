@@ -1,9 +1,6 @@
-require('./main.sass')
+require('./styles/main.scss')
+require('./index.html')
 
-class Form {
-	constructor() {
-		alert('The 1st may!')
-	}
-}
+import alertFunc from './alert'
 
-new Form();
+alertFunc('New webpack config')
