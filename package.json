@@ -11,6 +11,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "macaddress": ">=0.2.9"
+  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
