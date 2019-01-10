@@ -1,5 +1,4 @@
 const path = require('path')
-const webpack = require('webpack')
 const merge = require('webpack-merge')
 
 const commonConfig = require('./config/common')
@@ -13,7 +12,7 @@ const PATHS = {
 
 module.exports = (env, argv) => {
   return merge(
-    commonConfig,
+    commonConfig(PATHS),
     env === 'production' ? productionConfig(PATHS) : developmentConfig(PATHS)
   )
 }
