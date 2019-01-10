@@ -1,0 +1,7 @@
+{
+  "restartable": "rs",
+  "watch": [
+    "config/",
+    "webpack.config.js"
+  ]
+}
