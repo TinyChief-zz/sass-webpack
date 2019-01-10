@@ -1,6 +1,6 @@
-require('./styles/main.scss')
-require('./index.html')
-
 import alertFunc from './alert'
+
+import './styles/main.scss'
+import './index.html'
 
 alertFunc('New webpack config')

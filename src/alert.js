@@ -1,3 +1,3 @@
 export default function (msg) {
-	alert(msg)
+  console.log(new Date())
 }

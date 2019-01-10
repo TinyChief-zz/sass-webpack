@@ -1,8 +1,25 @@
-@import 'vars.scss';
+@import '_vars.scss';
+@import '_fonts.scss';
 
 body {
-	background: url('../images/1may.png')
-} 
-h1 {
-	width: $dw
+	color: red;
+	font-size: 20px;
+	font-family: Open Sans;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+p {
+	margin-bottom: 30px;
+}
+
+.container {
+	width: 300px;
+	height: 200px;
+	font-size: 30px;
+	display: flex;
+	background: url('../images/1may.png');
+	// background: linear-gradient()
 }
